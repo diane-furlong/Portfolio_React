@@ -49,6 +49,20 @@ body {
   }
 }
 
+/*ALL PAGES SET-UP*/
+.header-wrapper, .portfolioWrapper, .aboutMeWrapper, .contactWrapper {
+  position: relative;
+  z-index: 2;
+  height: 100vh;
+  background: url(./assets/Background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(54, 53, 53, 0.428);
+  height: 110vh;
+  font-family: "Antonio";
+  padding: 3vw 3vh;
+}
+
 /*NAVBAR*/
 .logo {
   width: 100%;
@@ -58,6 +72,30 @@ body {
 .navbar-nav {
   z-index: 2;
 }
+
+.navbar.active {
+  background: none;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* .navbar.active .nav-link {
+  color: #555;
+  font-size: 20px;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color: #555;
+  text-decoration: none;
+}
+
+.navbar.active .navbar-brand, .navbar-brand:hover {
+  color: #555;
+}
+
+.navbar-toggler {
+  color:black;
+} */
 
 /*PARTICLES*/
 .tsparticles-canvas-el {
@@ -96,17 +134,6 @@ nav ul li {
 }
 
 /*HEADER*/
-.header-wrapper {
-  position: relative;
-  background: url(./assets/Background.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: rgba(54, 53, 53, 0.428);
-  height: 90vh;
-  font-family: "Antonio";
-  z-index: 2;
-}
-
 .main-info {
   display: flex;
   position: absolute;
@@ -167,3 +194,4 @@ nav ul li {
     display: none;
   }
 }
+
