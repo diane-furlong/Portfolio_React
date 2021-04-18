@@ -133,6 +133,18 @@ nav ul li {
   font-size: 1.5rem;
 }
 
+@media(max-width:768px) {
+  .main-info h1 {
+    font-size: 1.5rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem !important;
+  }
+  .typed-text2 {
+    font-size: 1.0rem !important;
+  }
+}
+
 /*HEADER MAIN OFFER BUTTON*/
 .btn-main-offer {
   border: 1px solid var(--primary-peach);
@@ -143,3 +155,15 @@ nav ul li {
   color: var(--primary-peach);
 }
 
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-peach);
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+}
+
+@media(max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+}
