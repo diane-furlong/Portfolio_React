@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Antonio"
+  font-family: "Antonio";
 }
 
 .App {
@@ -52,6 +52,19 @@ body {
 /*NAVBAR*/
 .logo {
   width: 100%;
+  z-index: 2;
+}
+
+.navbar-nav {
+  z-index: 2;
+}
+
+/*PARTICLES*/
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
 }
 
 /*MENU LINKS*/
@@ -81,3 +94,52 @@ nav ul li {
 .navbar-nav > li > a.active, .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-peach);
 }
+
+/*HEADER*/
+.header-wrapper {
+  position: relative;
+  background: url(./assets/Background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(54, 53, 53, 0.428);
+  height: 90vh;
+  font-family: "Antonio";
+  z-index: 2;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info h1 {
+  text-transform: uppercase;
+}
+
+/*TYPED TEXT*/
+.typed-text {
+  font-size: 2rem;
+}
+
+.typed-text2 {
+  font-size: 1.5rem;
+}
+
+/*HEADER MAIN OFFER BUTTON*/
+.btn-main-offer {
+  border: 1px solid var(--primary-peach);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  margin-top: 2rem;
+  color: var(--primary-peach);
+}
+
