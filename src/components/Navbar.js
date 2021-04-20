@@ -21,7 +21,7 @@ const navbar = () => {
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container nav-item">
           {/* <a className="navbar-brand" href="/"><img src={Logo} alt="logo" className="logo"></img></a> */}
-          <a className="navbar-brand" href="/" id="logo">Diane Furlong</a>
+          <a className="navbar-brand" href="/IntroPage" id="logo">Diane Furlong</a>
 
           <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }}/>
