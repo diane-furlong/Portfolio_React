@@ -13,14 +13,10 @@ function App() {
     <>
       <Navbar/>
       <HashRouter basename='/'>
-        <Route render = {({ location }) => (
-          <Switch location = { location } >
-            <Route exact path="/" component={ Header }/>
-            <Route exact path="/AboutMePage/" component={ AboutMe }/>
-            <Route exact path="/PortfolioPage/" component={ Portfolio }/>
-            <Route exact path="/ContactPage/" component={ Contact }/>
-          </Switch>
-        )}/>
+        <Route exact path="/" component={ Header }/>
+        <Route exact path="/AboutMePage/" component={ AboutMe }/>
+        <Route exact path="/PortfolioPage/" component={ Portfolio }/>
+        <Route exact path="/ContactPage/" component={ Contact }/>
       </HashRouter>
     </>
   );
