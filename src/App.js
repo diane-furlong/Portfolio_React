@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <HashRouter basename='/'>
+      <HashRouter basename='/Portfolio_React'>
         <Route path="/Portfolio_React" component={ Header }/>
         <Route path="/Portfolio_React/AboutMePage" component={ AboutMe }/>
         <Route path="/Portfolio_React/PortfolioPage" component={ Portfolio }/>
