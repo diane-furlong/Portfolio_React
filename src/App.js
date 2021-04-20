@@ -14,12 +14,12 @@ function App() {
     <BrowserRouter>
      {/* <ParticlesComps/> */}
       <Navbar/>
-      <Switch>
-        <Route exact path="/" component={Header}/>
-        <Route exact path="/AboutMe" component={AboutMe}/>
-        <Route exact path="/Portfolio" component={Portfolio}/>
-        <Route exact path="/Contact" component={Contact}/>
-      </Switch>
+      {/* <Switch> */}
+        <Route exact path="/IntroPage" component={Header}/>
+        <Route exact path="/AboutMePage" component={AboutMe}/>
+        <Route exact path="/PortfolioPage" component={Portfolio}/>
+        <Route exact path="/ContactPage" component={Contact}/>
+      {/* </Switch> */}
     </BrowserRouter>
   );
 }
