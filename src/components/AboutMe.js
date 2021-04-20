@@ -5,13 +5,11 @@ import Image from '../assets/profile-picture.jpg'
 const AboutMe = () => {
     return (
         <div className="aboutMeWrapper">
-            <h1>About Me!</h1>
-            <br />
             <container className="row">
-                <div className="col-6">
-                    <img src="{Image}" alt="Diane Furlong"></img>
+                <div className="col-5">
+                    <img src={Image} alt="Diane Furlong" className="profPhoto"></img>
                 </div>
-                <div className="col-6">
+                <div className="col-5 aboutMeText">
                     <p>I am in training to become a full stack web developer. I am building upon current skills and learning many new skills. I taught myself basic HTML and CSS at an early age, but never took the steps to further explore this interest- until now! Thus far, I've made applications working on both the front end and the back end. View my portfolio page to see some examples!</p>
                     <br />
                     <p>Here's a little information about my background:</p>
