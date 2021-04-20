@@ -13,10 +13,10 @@ function App() {
     <>
       <Navbar/>
       <HashRouter basename='/'>
-        <Route path="/" component={ Header }/>
-        <Route path="/AboutMePage" component={ AboutMe }/>
-        <Route path="/PortfolioPage" component={ Portfolio }/>
-        <Route path="/ContactPage" component={ Contact }/>
+        <Route path="/Portfolio_React" component={ Header }/>
+        <Route path="/Portfolio_React/AboutMePage" component={ AboutMe }/>
+        <Route path="/Portfolio_React/PortfolioPage" component={ Portfolio }/>
+        <Route path="/Portfolio_React/ContactPage" component={ Contact }/>
       </HashRouter>
     </>
   );
