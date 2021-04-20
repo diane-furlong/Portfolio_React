@@ -21,7 +21,7 @@ const navbar = () => {
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container nav-item">
           {/* <a className="navbar-brand" href="/"><img src={Logo} alt="logo" className="logo"></img></a> */}
-          <a className="navbar-brand" href="/IntroPage" id="logo">Diane Furlong</a>
+          <a className="navbar-brand" href="/" id="logo">Diane Furlong</a>
 
           <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }}/>
@@ -30,7 +30,7 @@ const navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
               <li className="nav-item">
-                <a className="nav-link" href="/IntroPage">Home <span className="sr-only">(current)</span></a>
+                <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/AboutMePage">About Me</a>
@@ -39,7 +39,7 @@ const navbar = () => {
                 <a className="nav-link" href="/PortfolioPage">Portfolio</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="ContactPage">Contact</a>
+                <a className="nav-link" href="/ContactPage">Contact</a>
               </li>
             </ul>
           </div>
