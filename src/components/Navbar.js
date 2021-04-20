@@ -20,7 +20,6 @@ const navbar = () => {
     return (
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container nav-item">
-          {/* <a className="navbar-brand" href="/"><img src={Logo} alt="logo" className="logo"></img></a> */}
           <a className="navbar-brand" href="/Portfolio_React" id="logo">Diane Furlong</a>
 
           <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
