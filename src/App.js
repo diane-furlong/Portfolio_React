@@ -14,8 +14,8 @@ function App() {
       <Navbar/>
  
         <Route exact path="/" component={ Header }/>
-        <Route path="/Portfolio_React/#/AboutMe/" component={ AboutMe }/>
-        <Route path="Portfolio_React/#/Portfolio/" component={ Portfolio }/>
+        <Route path="/AboutMe/" component={ AboutMe }/>
+        <Route path="/Portfolio/" component={ Portfolio }/>
         <Route path="/Contact/" component={ Contact }/>
 
     </>
