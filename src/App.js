@@ -14,9 +14,9 @@ function App() {
       <Navbar/>
       <HashRouter basename="/">
         <Route exact path="/" component={ Header }/>
-        <Route path="/Portfolio_React/#AboutMe" component={ AboutMe }/>
-        <Route path="/Portfolio_React/#Portfolio" component={ Portfolio }/>
-        <Route path="/Portfolio_React/#Contact" component={ Contact }/>
+        <Route path="/Portfolio_React/#/AboutMe" component={ AboutMe }/>
+        <Route path="/Portfolio_React/#/Portfolio" component={ Portfolio }/>
+        <Route path="/Portfolio_React/#/Contact" component={ Contact }/>
       </HashRouter>
     </>
   );
