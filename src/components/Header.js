@@ -23,7 +23,7 @@ const Header = () => {
                         <div className="block">
                             <div className="row">
                                 <div className="col-md-12">
-                                    <a href="/Contact" className="btn-main-offer">Contact Me</a>
+                                    <a href="#/Contact/" className="btn-main-offer">Contact Me</a>
                                 </div>
                             </div>
                             <br/>
